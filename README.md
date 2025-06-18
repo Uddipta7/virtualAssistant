@@ -35,9 +35,7 @@ Includes:
 - Waveform animation while listening 🎙️  
 - Typewriter effect for replies ⌨️  
 - Avatar reactions 🧑‍🚀  
-- Responsive design with a clean layout  
-- Light/Dark Mode toggle 🌗
-
+- Responsive design with a clean layout
 ---
 
 ## 🛠️ Tech Stack
