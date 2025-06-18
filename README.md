@@ -65,7 +65,6 @@ Includes:
 ### 🗄️ Backend Stack
 - **Node.js + Express.js** – REST API
 - **MongoDB** (via Mongoose) – Database
-- **Cloudinary** – Image upload for avatar customization
 - **CORS, dotenv, bcrypt** – Auth and config helpers
 
 ---
@@ -77,13 +76,13 @@ Includes:
 git clone https://github.com/Uddipta7/virtualAssistant.git
 cd virtualAssistant
 ```
-2. Install Dependencies
+### 2. Install Dependencies
 ```bash
 npm install
 cd client
 npm install
 ```
-3. Set Up Environment Variables
+### 3. Set Up Environment Variables
 In the root folder, create a .env file with:
 ```env
 PORT=8000
@@ -97,16 +96,16 @@ In the /client folder, create a .env with:
 ```env
 VITE_GEMINI_API_KEY=your_google_gemini_api_key
 ```
-4. Run the App
-# In root (backend)
+### 4. Run the App
+In root (backend)
 ```bash
 npm run dev
 ```
-# In /client (frontend)
+In /client (frontend)
 ```bash
 npm run dev
 ```
-🔧 Project Structure
+## 🔧 Project Structure
 ```bash
 ├── client/              # React frontend
 │   ├── components/
